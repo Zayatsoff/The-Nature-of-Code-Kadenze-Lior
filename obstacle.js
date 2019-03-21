@@ -1,5 +1,5 @@
 function Obstacle() {
-  this.x = 50;
+  this.x = 300;
 
   this.display = function() {
     fill(255, 0, 100);
