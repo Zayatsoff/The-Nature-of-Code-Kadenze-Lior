@@ -10,21 +10,10 @@ var i = 0;
 function setup() {
   createCanvas(640, 360);
   person = new Person();
-  for (i = 0; i < 2; i++) {
+  /*  for (i = 0; i < 2; i++) {
     obstacle[i] = new Obstacle();
-  }
+  }      */ // enable for obstacle generation
 }
-
-function Obstacle() {
-  this.x = 50;
-
-  this.display = function() {
-    fill(255, 0, 100);
-    rect(this.x, height - 50, 30, 50);
-  };
-
-}
-
 
 function keyPressed() {
   if (key == ' ' && person.pos.y > 355) {
@@ -48,7 +37,12 @@ function draw() {
   person.edges();
   person.display();
 
-  obstacle[i].display();
+  fill(255, 0, 100);
+  rect(300, height - 50, 30, 50);
+  rect(450, height - 50, 30, 50);
+  rect(600, height - 50, 30, 50);
+  rect(750, height - 50, 30, 50);
+  //obstacle[i].display(); //enable for obstacle generation
 
 
 }
