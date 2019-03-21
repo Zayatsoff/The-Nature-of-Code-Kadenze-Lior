@@ -36,12 +36,17 @@ function draw() {
   person.update();
   person.edges();
   person.display();
-
+  var rectt = 10;
   fill(255, 0, 100);
-  rect(300, height - 50, 30, 50);
-  rect(450, height - 50, 30, 50);
-  rect(600, height - 50, 30, 50);
-  rect(750, height - 50, 30, 50);
+  rect(rectt * 30, height - 50, 30, 50);
+  rect(rectt * 45, height - 50, 30, 50);
+  rect(rectt * 60, height - 50, 30, 50);
+  rect(rectt * 75, height - 50, 30, 50);
+  rect(rectt * 90, height - 50, 30, 50);
+  rect(rectt * 105, height - 50, 30, 50);
+  rect(rectt * 130, height - 50, 30, 50);
+  rect(rectt * 145, height - 50, 30, 50);
+  rect(rectt * 160, height - 50, 30, 50);
   //obstacle[i].display(); //enable for obstacle generation
 
 
