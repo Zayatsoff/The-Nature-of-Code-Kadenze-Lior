@@ -10,19 +10,19 @@ function Person() {
 
   this.applyForce = function(force) {
     this.acc.add(force);
-  }
+  };
 
   this.update = function() {
     this.vel.add(this.acc);
     this.pos.add(this.vel);
     this.acc.set(0, 0);
-  }
+  };
 
   this.display = function() {
     fill(255, 150);
     stroke(255);
-    rect(this.pos.x, this.pos.y-50, 20, 50);
-  }
+    rect(this.pos.x, this.pos.y - 50, 20, 50);
+  };
 
   this.edges = function() {
     if (this.pos.y > height) {
@@ -31,5 +31,5 @@ function Person() {
     }
 
 
-  }
+  };
 }
