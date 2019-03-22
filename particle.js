@@ -45,3 +45,11 @@ function Obstacle() {
     rect(rectt * 30 * i,height - 50 , 30, 50);
   }
 }
+
+
+function gameName()  {
+  fill(157, 192, 249);
+  text("Neverendng-non-collision game!", 10, 30);
+
+
+}

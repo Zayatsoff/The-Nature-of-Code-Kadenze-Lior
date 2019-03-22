@@ -4,7 +4,9 @@
 // Session 2: Array of Particles, multiple forces
 
 var person;
-
+function preload() {
+  theFont = loadFont('libraries\theFont\GermaniaOne-Regular.ttf');
+}
 function setup() {
   createCanvas(640, 360);
   person = new Person();
@@ -20,27 +22,27 @@ function keyPressed() {
 var x = 400;
 
 function draw() {
-  /*  background(43, 47, 51);
-    var col = 157;
-    fill(col, 204, 189);
-    text("hi", 10, 30);
-  */
-  //if (key == ' ') {
+  background(43, 47, 51);
+  textSize(50);
+  textFont(theFont);
+  fill(123, 204, 189);
+  text("Welcome to the", 20, 60);
+
+  // gameName();
+  if (key == ' ') {
 
 
 
-
-background(51);
+    background(51);
     var gravity = createVector(0.005, 0.180);
     person.applyForce(gravity);
-
     translate(-person.pos.x + 20, 0);
-
     person.update();
     person.edges();
     person.display();
-  Obstacle();
-  // }
+    Obstacle();
+
+  }
 
 
 
