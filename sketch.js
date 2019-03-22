@@ -6,7 +6,7 @@
 var person;
 
 function preload() {
-  img = loadImage('libraries\weirdman.png');
+  img = loadImage('https://i.imgur.com/EIGOHAU.png');
   //theFont = loadFont('libraries\theFont\GermaniaOne-Regular.ttf');
 }
 function setup() {
