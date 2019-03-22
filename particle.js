@@ -49,7 +49,8 @@ function Obstacle() {
 
 function gameName()  {
   fill(157, 192, 249);
-  text("Neverendng-non-collision game!", 10, 30);
+  textSize(50);
+  text("Neverendng-non-collision game!", width/2, hight/2);
 
 
 }

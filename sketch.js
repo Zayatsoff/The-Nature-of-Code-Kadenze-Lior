@@ -4,7 +4,9 @@
 // Session 2: Array of Particles, multiple forces
 
 var person;
+
 function preload() {
+  img = loadImage('libraries\weirdman.png');
   //theFont = loadFont('libraries\theFont\GermaniaOne-Regular.ttf');
 }
 function setup() {
@@ -24,12 +26,14 @@ var x = 400;
 
 function draw() {
   background(43, 47, 51);
-  textSize(50);
+  textSize(30);
   //textFont(theFont);
   fill(123, 204, 189);
-  text("Welcome to the", 20, 60);
-
-  // gameName();
+  text("Welcome to the..", 20, 60);
+textSize(40);
+  fill(157, 192, 249);
+  text("Neverendng-non-collision game!!", 20, 100);
+image(img, -100, 100)
   if (key == ' ') {
 
 
