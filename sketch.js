@@ -5,9 +5,10 @@
 
 var person;
 function preload() {
-  theFont = loadFont('libraries\theFont\GermaniaOne-Regular.ttf');
+  //theFont = loadFont('libraries\theFont\GermaniaOne-Regular.ttf');
 }
 function setup() {
+
   createCanvas(640, 360);
   person = new Person();
 }
@@ -24,7 +25,7 @@ var x = 400;
 function draw() {
   background(43, 47, 51);
   textSize(50);
-  textFont(theFont);
+  //textFont(theFont);
   fill(123, 204, 189);
   text("Welcome to the", 20, 60);
 
