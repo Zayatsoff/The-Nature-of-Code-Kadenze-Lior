@@ -28,8 +28,20 @@ function Person() {
     if (this.pos.y > height) {
       this.vel.y *= 0;
       this.pos.y = height;
+
+
     }
 
 
   };
+}
+
+
+
+function Obstacle() {
+  var rectt = 10;
+  for (i = 0; i < 1523; i++) {
+    fill(161, 97, 198);
+    rect(rectt * 30 * i,height - 50 , 30, 50);
+  }
 }
