@@ -15,6 +15,7 @@ More than 10 algorthimic changes.
 
 Lior Rozin
 
-
+--Bug--
+Seems to be running really slowly online.
 ------------------------------------------
 \*Can you beleive it?
