@@ -3,6 +3,7 @@
 // http://natureofcode.com/
 // Session 2: Array of Particles, multiple forces
 
+
 var person;
 var ticks = 0;
 function preload() {
@@ -23,6 +24,8 @@ function keyPressed() {
     person.applyForce(jump);
   }
 }
+
+
 
 var x = 400;
 
