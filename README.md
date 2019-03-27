@@ -16,7 +16,7 @@ More than 10 algorthimic changes.
 Lior Rozin
 ```diff
 - Bug
-- The game seems to be running really slowly online.
+- ~~The game seems to be running really slowly online.~~
 ```
 
 ------------------------------------------
